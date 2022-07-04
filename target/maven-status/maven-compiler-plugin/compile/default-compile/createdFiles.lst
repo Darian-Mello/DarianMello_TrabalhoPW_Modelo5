@@ -5,6 +5,7 @@ br\edu\ifsul\modelo\Cidade.class
 br\edu\ifsul\modelo\VooAgendado.class
 br\edu\ifsul\modelo\Pessoa.class
 br\edu\ifsul\testes\TestePersistirAeroporto.class
+br\edu\ifsul\testes\TestePersistirPassagem.class
 br\edu\ifsul\testes\TestePersistirClasse.class
 br\edu\ifsul\testes\TestePersistirPessoa.class
 br\edu\ifsul\testes\TestePersistirCidade.class

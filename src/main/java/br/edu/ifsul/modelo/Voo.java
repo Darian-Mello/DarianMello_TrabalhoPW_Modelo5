@@ -41,8 +41,7 @@ public class Voo implements Serializable {
     private Integer id;
     
     @NotBlank(message = "A descricao não pode estar em branco")
-    @Length(max = 50, message = "A descricao não pode ter mais que {max} caracteres")
-    @Column(name = "descricao", length = 50, nullable = false)    
+    @Column(name = "descricao", nullable = false, columnDefinition = "text")    
     private String descricao;
     
     @Min(value = 0, message = "O tempo estimado não pode ser negativo")
@@ -60,7 +59,7 @@ public class Voo implements Serializable {
     private String periodicidade;
     
     @OneToMany(mappedBy = "voo", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    private List<VooAgendado> voo_agendado = new ArrayList<>();
+    private List<VooAgendado> vooAgendado = new ArrayList<>();
     
     @ManyToMany
     @JoinTable(name = "escalas",
@@ -75,6 +74,15 @@ public class Voo implements Serializable {
     
     public Voo () {
         
+    }
+    
+    public void adicionarVooAgendado (VooAgendado obj) {
+        obj.setVoo(this);
+        this.vooAgendado.add(obj);
+    }
+    
+    public void removerVooAgendado (int index) {
+        this.vooAgendado.remove(index);
     }
 
     public Integer getId() {
@@ -125,15 +133,13 @@ public class Voo implements Serializable {
         this.aeroportos = aeroportos;
     }
 
-    public List<VooAgendado> getVoo_agendado() {
-        return voo_agendado;
+    public List<VooAgendado> getVooAgendado() {
+        return vooAgendado;
     }
 
-    public void setVoo_agendado(List<VooAgendado> voo_agendado) {
-        this.voo_agendado = voo_agendado;
+    public void setVooAgendado(List<VooAgendado> vooAgendado) {
+        this.vooAgendado = vooAgendado;
     }
-    
-    
     
     @Override
     public int hashCode() {
