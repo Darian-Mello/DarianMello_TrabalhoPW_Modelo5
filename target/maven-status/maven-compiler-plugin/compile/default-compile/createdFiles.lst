@@ -13,3 +13,4 @@ br\edu\ifsul\modelo\Classe.class
 br\edu\ifsul\modelo\Voo.class
 br\edu\ifsul\modelo\Passagem.class
 br\edu\ifsul\modelo\Aeroporto.class
+br\edu\ifsul\utilrelatorios\FabricaObjetos.class

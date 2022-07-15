@@ -66,6 +66,15 @@ public class VooAgendado implements Serializable {
     public VooAgendado () {
         
     }
+    
+    public void adicionarPassagem (Passagem obj) {
+        obj.setVooAgendado(this);
+        this.passagens.add(obj);
+    }
+    
+    public void removerPassagem (int index) {
+        this.passagens.remove(index);
+    }
 
     public Integer getId() {
         return id;
