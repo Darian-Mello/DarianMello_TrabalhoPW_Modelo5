@@ -6,10 +6,15 @@ C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\modelo\Aero
 C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\modelo\VooAgendado.java
 C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\testes\TestePersistirClasse.java
 C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\testes\TestePersistirAeroporto.java
+C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\modelo\Usuario.java
+C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\testes\TestePersistirUsuario.java
+C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\modelo\Permissao.java
 C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\modelo\Passagem.java
 C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\modelo\Pessoa.java
 C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\testes\TestePersistirVoo.java
+C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\testes\TestePersistirUsuarioPermissao.java
 C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\modelo\Cidade.java
+C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\testes\TestePersistirPermissao.java
 C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\modelo\Classe.java
 C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\modelo\Voo.java
 C:\Java\PW\DarianMello_TrabalhoPW_Modelo5\src\main\java\br\edu\ifsul\testes\TestePersistirEscalas.java

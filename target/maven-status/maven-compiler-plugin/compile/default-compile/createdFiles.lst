@@ -2,6 +2,7 @@ br\edu\ifsul\testes\TestePersistirVoo.class
 br\edu\ifsul\testes\TestePersistirEscalas.class
 br\edu\ifsul\testes\TestePersistirVooAgendado.class
 br\edu\ifsul\modelo\Cidade.class
+br\edu\ifsul\testes\TestePersistirPermissao.class
 br\edu\ifsul\modelo\VooAgendado.class
 br\edu\ifsul\modelo\Pessoa.class
 br\edu\ifsul\testes\TestePersistirAeroporto.class
@@ -9,8 +10,12 @@ br\edu\ifsul\testes\TestePersistirPassagem.class
 br\edu\ifsul\testes\TestePersistirClasse.class
 br\edu\ifsul\testes\TestePersistirPessoa.class
 br\edu\ifsul\testes\TestePersistirCidade.class
+br\edu\ifsul\modelo\Permissao.class
 br\edu\ifsul\modelo\Classe.class
+br\edu\ifsul\testes\TestePersistirUsuario.class
 br\edu\ifsul\modelo\Voo.class
 br\edu\ifsul\modelo\Passagem.class
 br\edu\ifsul\modelo\Aeroporto.class
+br\edu\ifsul\modelo\Usuario.class
+br\edu\ifsul\testes\TestePersistirUsuarioPermissao.class
 br\edu\ifsul\utilrelatorios\FabricaObjetos.class
